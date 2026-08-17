@@ -2,10 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main>
+      <h1>Stargazers log</h1>
+      <p>A log of the repositories I've starred.</p>
+      <h2 id="starred-heading">Starred repositories</h2>
+      <p id="status" class="status" aria-live="polite"></p>
+      <ul id="starred" aria-labelledby="starred-heading"></ul>
+      <noscript>
+        <p class="error">JavaScript is required to load the starred repositories list.</p>
+      </noscript>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>

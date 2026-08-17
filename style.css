@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+main {
+  max-width: 40rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #0969da;
+}
+
+a:focus-visible {
+  outline: 2px solid #0969da;
+  outline-offset: 2px;
+}
+
+.status {
+  color: #57606a;
+}
+
+.status.error {
+  color: #cf222e;
+}
+
+.error {
+  color: #cf222e;
+}
